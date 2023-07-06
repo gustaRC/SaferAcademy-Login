@@ -33,15 +33,16 @@
 .main-conteiner {
   display: flex;
   flex-direction: column;
-  /* min-height: 100vh; */
 }
 
 .box-main {
-  min-height: 91.2vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
+  align-self: center;
+  width: 100%;
   gap: 15%;
   margin: 10%;
   margin-bottom: 0;
@@ -136,14 +137,42 @@
   gap: 3px;
 }
 
+.widthIMG {
+  width: 35px;
+}
+
+#showPassword {
+
+}
+
+.divPassword {
+  margin-top: 4px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#showPassword {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.divPassword input {
+  margin: 0;
+  width: 100%;
+}
 .footerWeb {
-  /* margin-top: 40px; */
-  /* position: absolute; */
-  bottom: 0;
+  margin-top: -82px;
+  /* position: absolute;; */
+  bottom: 0px;
   /* background-color: #ececec; */
   width: 100%;
   display: flex;
   justify-content: space-between;
+  /* margin-top: 130px; */
   align-items: flex-end;
   padding-bottom: 10px;
   padding-right: 3%;
@@ -161,6 +190,7 @@
   width: 600px;
   height: 600px;
   overflow: hidden;
+  margin-top: 40px;
 }
 
 .slides {

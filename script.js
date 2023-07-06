@@ -13,3 +13,13 @@ function nextImage() {
 
     document.getElementById("radio"+count).checked =true
 }
+
+const inputPassword = document.getElementById("password")
+const showPassword = document.getElementById("showP")
+
+showPassword.addEventListener("click", changeInput)
+
+function changeInput(ev) {
+    ev.preventDefault()
+}
+
