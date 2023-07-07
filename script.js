@@ -21,5 +21,11 @@ showPassword.addEventListener("click", changeInput)
 
 function changeInput(ev) {
     ev.preventDefault()
+    if (inputPassword.type == "password") {
+        inputPassword.type = "text"
+        
+    } else {
+        inputPassword.type = "password"
+    }
 }
 
