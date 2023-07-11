@@ -102,15 +102,15 @@
   height: 35px;
   padding-left: 8px;
   padding-right: 4px;
+  padding-bottom: 0;
   margin-top: 4px;
   margin-bottom: 15px;
 }
 
-input:focus-within {
-  border-style: none;
+#password {
   border: 0;
+  padding-top: 2px;
 }
-
 #submitBtn {
   margin-top: 20px;
   height: 35px;
@@ -156,6 +156,8 @@ input:focus-within {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  border-bottom: 2px solid var(--cinza-escuro);
+  padding: 0;
 }
 
 #showPassword {
